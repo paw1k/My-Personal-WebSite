@@ -1,0 +1,148 @@
+
+img{
+  background-size: cover;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.container {
+    width: 100%;
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px;
+}
+
+.QuoteBox{
+  bottom: 0;
+  left: 50px;
+  position: absolute;
+  height: auto;
+  width: auto;
+  text-align:center;
+
+
+}
+
+.authorName{
+  color: #e79cc2;
+  font-family:'Cinzel', serif;
+
+
+}
+
+p{
+  color: #a6dcef;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  align-items: center;
+
+
+}
+
+.slide{
+  background-image: url('https://paintingvalley.com/images/dark-abstract-painting-11.jpg');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #ff4301;
+  background-blend-mode: multiply;
+
+
+}
+
+.backmost{
+  /* background-color: #1f4068; */
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+.slide{
+  /* background-color: #e1ffc2; */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  box-shadow: 25px 25px 50px 0 #111d5e inset, -25px -25px 50px 0 #111d5e inset;
+
+}
+
+#slideshow{
+  /* background-color: #ffa931; */
+  top: 0;
+  left: 37px;
+  height: 91.75%;
+  width: 94.75%;
+  position: relative;
+
+}
+
+#slideshow > div > img{
+    position: absolute;
+}
+
+
+
+
+
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #192965; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #192965;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #192965;
+}

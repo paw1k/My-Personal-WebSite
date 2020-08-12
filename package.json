@@ -1,0 +1,17 @@
+{
+  "name": "officalwebsite",
+  "version": "1.0.0",
+  "description": "Personal Site.",
+  "main": "myWebJs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pawan Panta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.3.0",
+    "path": "^0.12.7"
+  }
+}
